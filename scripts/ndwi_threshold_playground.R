@@ -88,7 +88,7 @@ july31_binary <- july31$NDWI_Ice > 0
 plot(july31_binary)
 summary(july31_binary)
 
-# should be good
+# save
 writeRaster(july31_binary, "july31_thres_binary.tif")
   
   
